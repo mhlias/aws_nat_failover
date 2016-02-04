@@ -1,0 +1,26 @@
+{
+  "name": "aws_nat_failover",
+  "version": "0.1.0",
+  "author": "mhlias",
+  "summary": "",
+  "license": "Apache 2.0",
+  "source": "https://github.com/mhlias/aws_nat_failover",
+  "description": "",
+  "project_page": "https://github.com/mhlias/aws_nat_failover",
+  "issues_url": "https://github.com/mhlias/aws_nat_failover/issues",
+  "dependencies": [
+    {
+      "name": "puppetlabs-stdlib",
+      "version_requirement": ">= 4.0.0"
+    }
+  ],
+  "operatingsystem_support": [
+    {
+      "operatingsystem": "RedHat",
+      "operatingsystemrelease": [
+        "6",
+        "7"
+      ]
+    }
+  ]
+}

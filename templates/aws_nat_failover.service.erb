@@ -1,0 +1,13 @@
+[Unit]
+Description=Monitor another Bastion NAT instance and failover
+After=network.target
+
+[Service]
+Type=simple
+User=root
+StandardOutput=syslog
+StandardError=syslog
+ExecStart=/usr/local/sbin/monitor_bastion <%= @region %> <%= @tag_key %> <%= @tag_value %> 
+
+[Install]
+WantedBy=multi-user.target

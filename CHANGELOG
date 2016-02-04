@@ -1,0 +1,3 @@
+Release v0.1.0
+- Initial Release
+- Support monitoring and failover of Bastion NAT instances
